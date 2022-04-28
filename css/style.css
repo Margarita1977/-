@@ -1,3 +1,140 @@
-*body {
-    color: #fff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.container {
+    max-width: 1267px;
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+}
+
+.navigaihin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+}
+
+.header-tel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 380px;
+    width: 100%;
+    
+}
+
+.heander-link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header-p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+
+.logo-img {
+    display: flex;
+    align-items: center;
+}
+
+.logo-p {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    
+}
+
+.img {
+    margin-right: 11px;
+}
+
+.section-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #737373;
+    margin-left: 25px;   
+}
+
+.section  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(../img/подложка\ 1.png) no-repeat right;
+}
+
+.h1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 59px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.p-section {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.button {
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    border-radius: 7px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 15px 38px;
+}
+
+.h2 {
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    color: #000000;
+}
+
+span {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    background: linear-gradient(180deg, #B90160 0%, #3D5BF5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
